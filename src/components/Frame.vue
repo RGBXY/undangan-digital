@@ -9,7 +9,7 @@
         <img class="w-[30%] cssanimation zoomIn absolute bottom-0" src="../../public/assets/bl.svg" alt="" />
         <img class="w-[30%] cssanimation zoomIn absolute bottom-0 right-0" src="../../public/assets/br.svg" alt="" />
       </div>
-      <div class="h-[10%] overflow-auto w-full bg-blue-50">
+      <div class="h-[10%] overflow-hidden w-full bg-blue-50">
         <Navigation />
       </div>
     </div>

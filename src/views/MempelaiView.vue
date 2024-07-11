@@ -23,7 +23,7 @@
       <div class="flex justify-between items-center w-full">
         <img class="animate__animated animate__fadeIn animate__delay-2s" src="../../public/assets/mempelai-v.png" alt="" />
         <div class="animate__animated animate__fadeInRight animate__delay-2s w-full flex flex-col text-sm font-oldenburg items-end mt-5">
-          <p class="font-script text-[32px] mb-2">Kim Jong In</p>
+          <p class="font-script text-[32px] mb-2">Jenny Kim</p>
           <p>Putra Pertama</p>
           <p>dari bapak Joko &</p>
           <p>Ibu Wati</p>

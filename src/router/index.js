@@ -4,6 +4,7 @@ import MempelaiView from "../views/MempelaiView.vue";
 import TanggalView from "../views/TanggalView.vue";
 import AlamatView from "../views/AlamatView.vue";
 import GaleriView from "../views/GaleriView.vue";
+import StoryView from "../views/StoryView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,11 @@ const router = createRouter({
       path: "/galeri",
       name: "galeri",
       component: GaleriView,
+    },
+    {
+      path: "/love",
+      name: "love",
+      component: StoryView,
     },
   ],
 });

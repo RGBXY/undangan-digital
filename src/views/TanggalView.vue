@@ -13,19 +13,19 @@
       </div>
       <div class="animate__animated animate__zoomIn flex justify-center gap-3 mb-[14px]">
         <div class="bg-[#A3D8FF] text-[14px] font-quin rounded-xl flex flex-col items-center py-1 px-3 gap-1">
-          <p>357</p>
+          <p>{{ timerStore.days }}</p>
           <p>Hari</p>
         </div>
         <div class="bg-[#A3D8FF] text-[14px] font-quin rounded-xl flex flex-col items-center py-1 px-3 gap-1">
-          <p>17</p>
+          <p>{{ timerStore.hours }}</p>
           <p>Jam</p>
         </div>
         <div class="bg-[#A3D8FF] text-[14px] font-quin rounded-xl flex flex-col items-center py-1 px-3 gap-1">
-          <p>26</p>
+          <p>{{ timerStore.minutes }}</p>
           <p>Menit</p>
         </div>
         <div class="bg-[#A3D8FF] text-[14px] font-quin rounded-xl flex flex-col items-center py-1 px-3 gap-1">
-          <p>28</p>
+          <p>{{ timerStore.seconds }}</p>
           <p>Detik</p>
         </div>
       </div>
@@ -40,8 +40,31 @@
   </Frame>
 </template>
 
-<script setup>
+<script>
 import Frame from "../components/Frame.vue";
+import { useTimerStore } from "@/stores/timer";
+import { onMounted, onUnmounted } from "vue";
+
+export default {
+  components: {
+    Frame,
+  },
+  setup() {
+    const timerStore = useTimerStore();
+
+    onMounted(() => {
+      timerStore.startTimer();
+    });
+
+    onUnmounted(() => {
+      timerStore.stopTimer();
+    });
+
+    return {
+      timerStore,
+    };
+  },
+};
 </script>
 
 <style>
