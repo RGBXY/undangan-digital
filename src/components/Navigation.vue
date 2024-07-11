@@ -16,8 +16,8 @@
       <img v-else src="../../public/assets/tanggal.svg" alt="" />
       <p>Tanggal</p>
     </RouterLink>
-    <RouterLink exact-active-class="bg-[#87CEEB] text-black" to="/alamat" class="w-[82.8px] h-[85%] rounded-xl flex flex-shrink-0 flex-col text-[0.8rem] gap-1.5 justify-center items-center">
-      <img v-if="isActive('/alamat')" src="../../public/assets/alamat_active.svg" alt="" />
+    <RouterLink exact-active-class="bg-[#87CEEB] text-black" to="/galeri" class="w-[82.8px] h-[85%] rounded-xl flex flex-shrink-0 flex-col text-[0.8rem] gap-1.5 justify-center items-center">
+      <img v-if="isActive('/galeri')" src="../../public/assets/alamat_active.svg" alt="" />
       <img v-else src="../../public/assets/alamat.svg" alt="" />
       <p>Alamat</p>
     </RouterLink>
