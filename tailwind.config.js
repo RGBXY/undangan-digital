@@ -8,6 +8,7 @@ export default {
       script: ["Style Script"],
       volk: ["Vollkorn"],
       quin: ["Quintessential"],
+      oldstand: ["Old Standard TT"],
     },
   },
   plugins: [],

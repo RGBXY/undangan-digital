@@ -4,5 +4,5 @@ import "animate.css";
 </script>
 
 <template>
-  <RouterView />
+  <router-view />
 </template>
