@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-[100svh] flex justify-center items-center bg-[#87CEEB]">
-    <div class="w-[60vh] h-full relative">
+    <div class="lg:w-[60vh] w-full h-full relative">
       <div class="relative h-[90%] overflow-hidden bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(253, 253, 253, 0.9), rgba(255, 255, 255, 0.5)), url(../../public/assets/bg.jpeg)">
         <slot></slot>
 
