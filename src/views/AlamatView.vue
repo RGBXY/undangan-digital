@@ -17,7 +17,7 @@ import Frame from "@/components/Frame.vue";
       </div>
       <h1 class="animate__animated animate__fadeInUp mb-4 text-[25px] font-bold font-quin">Kediaman Mempelai Wanita</h1>
       <p class="animate__animated animate__fadeInUp mb-3 text-[16px] font-volk">Jl Nangka Barat, Rt 02, Rw 01, Tandang, Tembalang, Kota Semarang</p>
-      <a href="https://maps.app.goo.gl/wH82BVGYkLwhuRZ5A" class="animate__animated animate__fadeInUp bg-gradient-to-b text-[16px] font-oldenburg font-bold text-sm from-[#87CEEB] via-[#C2EAFB] to-[#87CEEB] py-2.5 px-4 rounded-xl"
+      <a href="https://maps.app.goo.gl/gehh5reb3cmUQjPW7" class="animate__animated animate__fadeInUp bg-gradient-to-b text-[16px] font-oldenburg font-bold text-sm from-[#87CEEB] via-[#C2EAFB] to-[#87CEEB] py-2.5 px-4 rounded-xl"
         >Petunjuk ke Lokasi</a
       >
     </div>

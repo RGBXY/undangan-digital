@@ -22,7 +22,9 @@ import Frame from "../components/Frame.vue";
           <p class="text-sm font-oldenburg">Kepada Yth:</p>
           <p class="mb-4 text-sm font-oldenburg">Bapak/Ibu/Saudara/i</p>
           <p class="mb-8 text-xl font-oldenburg">Nama Tamu</p>
-          <button class="bg-gradient-to-b from-[#87CEEB] via-[#C2EAFB] to-[#87CEEB] py-2 text-sm px-4 rounded-xl">Buka Undangan</button>
+          <RouterLink to="/mempelai">
+            <button class="bg-gradient-to-b from-[#87CEEB] via-[#C2EAFB] to-[#87CEEB] py-2 text-sm px-4 rounded-xl">Buka Undangan</button>
+          </RouterLink>
         </div>
       </div>
     </Frame>

@@ -11,10 +11,10 @@
           <p>dari bapak Joko &</p>
           <p>Ibu Wati</p>
           <div class="flex mt-2.5 gap-2">
-            <a href="" class="bg-[#87CEEB] p-1.5 rounded-full">
+            <a href="https://www.instagram.com/cancreative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="bg-[#87CEEB] p-1.5 rounded-full">
               <img src="../../public/assets/instagram.svg" alt="" />
             </a>
-            <a href="" class="bg-[#87CEEB] p-1.5 rounded-full">
+            <a href="https://www.facebook.com/can.co.id?locale=id_ID" class="bg-[#87CEEB] p-1.5 rounded-full">
               <img src="../../public/assets/facebook.svg" alt="" />
             </a>
           </div>
@@ -28,10 +28,10 @@
           <p>dari bapak Joko &</p>
           <p>Ibu Wati</p>
           <div class="flex mt-2.5 gap-2">
-            <a href="" class="bg-[#87CEEB] p-1.5 rounded-full">
+            <a href="https://www.instagram.com/cancreative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="bg-[#87CEEB] p-1.5 rounded-full">
               <img src="../../public/assets/instagram.svg" alt="" />
             </a>
-            <a href="" class="bg-[#87CEEB] p-1.5 rounded-full">
+            <a href="https://www.facebook.com/can.co.id?locale=id_ID" class="bg-[#87CEEB] p-1.5 rounded-full">
               <img src="../../public/assets/facebook.svg" alt="" />
             </a>
           </div>
